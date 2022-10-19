@@ -11,7 +11,6 @@
 			int x = Addiere(4, 2); //Ergebnis der Addiere Funktion in eine Variable schreiben
 			Console.WriteLine(Addiere(4, 2)); //Ergebnis der Addiere Funktion direkt weitergeben an CW
 
-
 			//F12: Zu Definition springen
 			Console.WriteLine(); //-> 17 Overloads für alle möglichen Parameter (int, string, char, ...)
 
