@@ -11,6 +11,10 @@
 			int x = Addiere(4, 2); //Ergebnis der Addiere Funktion in eine Variable schreiben
 			Console.WriteLine(Addiere(4, 2)); //Ergebnis der Addiere Funktion direkt weitergeben an CW
 
+
+			//F12: Zu Definition springen
+			Console.WriteLine(); //-> 17 Overloads für alle möglichen Parameter (int, string, char, ...)
+
 			double y = Addiere(2d, 2.0); //Double Addiere erzwingen durch mindestens ein double bei den Parametern
 
 			double z = Addiere(1, 2, 3, 4, 5, 6); //Bei Params können beliebig viele Parameter angegeben werden
@@ -42,9 +46,6 @@
 			Console.WriteLine(ret.z1);
 			Console.WriteLine(ret.z2);
 			Console.WriteLine(ret.str);
-
-			//F12: Zu Definition springen
-			Console.WriteLine(); //-> 17 Overloads für alle möglichen Parameter (int, string, char, ...)
 		}
 
 		static void PrintAddiere(int z1, int z2) //Funktion mit void (kein Rückgabewert), Zwei Parameter: z1, z2
