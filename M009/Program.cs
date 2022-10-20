@@ -105,6 +105,11 @@ public class Lebewesen
 	{
 		return "Ich bin ein Lebewesen";
 	}
+
+	//public string WasBinIch() -> new
+	//{
+	//	return "Ich bin ein Lebewesen";
+	//}
 }
 
 public class Mensch : Lebewesen 
@@ -113,6 +118,11 @@ public class Mensch : Lebewesen
 	{
 		return base.WasBinIch() + " und habe zwei Beine";
 	}
+
+	//public new string WasBinIch() -> new
+	//{
+	//	return base.WasBinIch() + " und habe zwei Beine";
+	//}
 
 	public void MenschMethode()
 	{
