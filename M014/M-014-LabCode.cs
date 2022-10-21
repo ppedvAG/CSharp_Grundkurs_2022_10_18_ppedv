@@ -38,7 +38,6 @@ public class DivisionsCalculator
 	// {
 		// if (num % i == 0)
 		// {
-			// NotPrime(num, i);
 			// return false;
 		// }
 	// }
