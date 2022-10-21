@@ -20,9 +20,9 @@ internal class Program
 		List<int> y;
 		Dictionary<int, int> z;
 
-		Test(x);
-		Test(y);
-		Test(z);
+		//Test(x);
+		//Test(y);
+		//Test(z);
 	}
 
 	static void Test(IEnumerable x) //Jeder Listentyp möglich
