@@ -36,7 +36,10 @@ public partial class MainWindow : Window
 
 	private void FahrzeugSelected(object sender, SelectionChangedEventArgs e)
 	{
-		ListBox lb = sender as ListBox;
-		InfoTB.Text = Fahrzeuge[lb.SelectedIndex].Info();
+		if (FahrzeugLB.SelectedIndex != -1)
+		{
+			ListBox lb = sender as ListBox;
+			InfoTB.Text = Fahrzeuge[lb.SelectedIndex].Info();
+		}
 	}
 }
